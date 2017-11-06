@@ -57,7 +57,7 @@ def stage_service(ctx, image, namespace):
     VERSION=IMAGE_SPLIT[1]
     NAMESPACE=namespace
     ACTIVE_TAG='active'
-    REGISTRY='elsols-docker.jfrog.io/eols'
+    REGISTRY='ADD DOCKER REGISTRY HERE' #add your docker registry
     PROD_CONTEXT=prod_context
     NON_PROD_CONTEXT=non_prod_context
 

@@ -7,6 +7,7 @@ This is a batch processing tool to stage multiple OpenShift services. You can al
 - `pip install click`
   - Use a virtualenv cause you'll have global privileges and don't need `sudo` or `--user` to `pip install click`
 - Update Lines 49 and 51 in `oc_services.py` for your prod and non_prod cluster (if need be).
+- Updaet Line 60 in `oc_services.py` to reflect your Docker registry URL
 
 ## How it works:
 
